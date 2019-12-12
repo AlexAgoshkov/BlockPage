@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+  <link rel="stylesheet" href="style.css">
+  <title>Payment checkout form UI</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="checkout_wrapper">
+    <div class="checkout_form">
+      <p>Checkout Form</p>
+      <div class="details">
+        <div class="section">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Surname">
+        </div>
+        <div class="section">
+          <input type="text" placeholder="E-mail">
+          <input type="text" placeholder="Phone">
+        </div>
+       
+        <div class="section">
+          <select required>
+            <option value="" hidden>Country</option>
+            <option value="1">First</option>
+            <option value="2">Second</option>
+          </select>
+          <input type="text" placeholder="City" maxlength="10" size="14">
+          <input type="text" placeholder="Post Code" maxlength="10" size="9">
+
+        </div>
+        
+        <div class="section">
+          <input type="text" placeholder="Address" maxlength="100" size="51">
+        </div>
+
+        <textarea placeholder="Additional Info" cols="53" rows="3"></textarea>
+
+       
+        <div>
+          <input type="radio" id="radio01" name="radio" />
+          <label for="radio01"><span></span>Visa</label>
+          <input type="radio" id="radio02" name="radio" />
+          <label for="radio02"><span></span>Master Card</label>
+          <input type="radio" id="radio03" name="radio" />
+          <label for="radio03"><span></span>PayPal</label>
+        </div>
+        
+        <div class="section">
+          <input type="text" placeholder="Name of Card" maxlength="100" size="51">
+        </div>
+
+        <div class="section">
+          <input type="text" placeholder="Card number" maxlength="10" size="35">
+          <input type="text" placeholder="CVV2" maxlength="10" size="5">
+        </div>
+
+        <div>
+         
+         <div class="section">
+            <label style="margin-left:11px" >Expiration date</label>
+          <select required style="margin-left:103px">
+            <option value="" hidden>Month</option>
+            <option value="1">First</option>
+            <option value="2">Second</option>
+          </select>
+          
+          <input type="text" placeholder="Year" maxlength="10" size="5">
+
+        </div>
+        
+        </div>
+       
+        <div class="btn">
+          <a href="#">Continue</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
